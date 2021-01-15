@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const prefix = 'PREFIX';
 
-const db = require("qiuck.db");
+const db = require("quick.db");
 
 client.on('ready', () => {
   console.log(`im ${client.user.tag}, ready ...`)
